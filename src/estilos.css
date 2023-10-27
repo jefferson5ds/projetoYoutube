@@ -1,0 +1,51 @@
+main{
+    
+
+
+}
+
+.cabecalho{
+    margin: 5px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.logo{
+   
+
+}
+.imagemVideo{
+    display: flex;
+    display: inline-block;
+    background-color: blue;
+    width: 500px;
+    height: 400px;
+}
+.imagem{
+    
+    margin: 5px;
+    width:952px;
+    height: 746px; 
+}
+.section{
+    display: flex;
+    margin: 5px;
+    display: inline-block;
+    display: grid;
+    position: relative;
+  
+
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    
+
+}
+.list01{
+
+    
+}
