@@ -11,41 +11,39 @@ main{
     justify-content: space-between;
     gap: 5px;
 }
-.logo{
    
 
-}
+
 .imagemVideo{
-    display: flex;
-    display: inline-block;
     background-color: blue;
     width: 500px;
     height: 400px;
+    
 }
 .imagem{
-    
     margin: 5px;
-    width:952px;
+    width:500pxpx;
     height: 746px; 
 }
-.section{
-    display: flex;
+#section{
+    background-color: blueviolet;
     margin: 5px;
-    display: inline-block;
-    display: grid;
-    position: relative;
+    display: flex;
   
 
 }
 .list{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    position: absolute;
+ background-color: aqua;
+ flex-direction: column;
+    
     
 
 }
 .list01{
-
-    
+ background-color: brown;
+}
+.lista02{
+    background-color: chartreuse;
+    margin: 5px;
+    padding: 5px;
 }
