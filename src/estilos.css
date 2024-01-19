@@ -1,4 +1,6 @@
-main{
+#conteiner{
+    display: flex;
+
     
 
 
@@ -27,46 +29,55 @@ main{
     width: 600px;
     height: 600px; 
 }
-#section{
+.conteiner{
  
-    margin: 5px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: end;
-    gap: 10px 10px;
+ display: flex;
+ position: relative;
+ 
+ 
+
   
 
 }
 .list{
+   display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
+    position: absolute;
 
- flex-direction: column;
- display: flex;
- justify-content: flex-end;
- align-items: flex-end;
- column-gap: end;
- gap: 5px;
-    
-    
+
 
 }
 .list01{
-
- margin: 5px;
-
- display: flex;
- flex-direction: column;
- justify-content: flex-end:
+    
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  align-items: end;
  
- 
+}
+li{
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    position: end;
+    margin: 0;
+    background-color: aqua;
 }
 .lista02{
  
-    margin: 5px;
+   display: flex;
+
  
-    display: flex;
+    
     justify-content: flex-end;
 }
 .list02 li{
     display: flex;
+    position: ;
+    
     justify-content: flex-end;
 }
